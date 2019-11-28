@@ -50,7 +50,7 @@ function acessoDiretoCampanha(idCampanha) {
                 r.json()
                     .then(c => {
                         localStorage.setItem('campanha', JSON.stringify(c));
-                        window.location.href = "http://127.0.0.1:5500/app/views/campanha.html"
+                        window.location.href = "https://danilomfreitas.github.io/views/campanha.html"
                     })
             }
         })
