@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Busca de Campanhas</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="home_nav">
+        <div class="home_wrapper">
+            <div class="home_logo">
+                <a href="../index.html">
+                    <img alt="Ir para página inicial" src="../img/logo.png" width="60px">
+                </a>
+            </div>
+            <div class="home_login">
+                <a href="loginUsuario.html" id="login">Login</a>
+            </div>
+            <div class="home_cadastro_campanhas">
+                <a href="cadastroCampanha.html" id="campanhas">Cadastrar Campanha</a>
+            </div>
+            <div class="home_busca_usuario">
+                <a href="buscaUsuarios.html">Buscar Usuário</a>
+            </div>
+            <div class="home_cadastro">
+                <a href="cadastroUsuario.html" id="cadastro">Cadastro</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1>Busca Campanhas</h1>
+            <p>
+                <label for="busca_campanha">Digite sua busca:</label>
+                <input type="text" name="busca_campanha" id="busca_campanha" required="required" placeholder="Ex: campanha do bem">
+            </p>
+            <p>
+                <input type="checkbox" name="checkbox_campanha" id="checkbox_campanha">
+                <label for="checkbox_campanha">Mostrar todas as campanhas (independente do status)</label>
+            </p>
+            <p>
+                <button>Buscar</button>
+            </p>
+        </div>
+    </div>
+    <script type="module" src="../js/controllers/buscaCampanhas.js"></script>
+</body>
+
+</html>

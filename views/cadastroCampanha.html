@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro De Campanha</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="home_nav">
+        <div class="home_wrapper">
+            <div class="home_logo">
+                <a href="../index.html">
+                    <img alt="Ir para página inicial" src="../img/logo.png" width="60px">
+                </a>
+            </div>
+            <div class="home_login">
+                <a href="loginUsuario.html" id="login">Login</a>
+            </div>
+            <div class="home_busca">
+                <a href="buscaCampanhas.html">Buscar Campanha</a>
+            </div>
+            <div class="home_busca_usuario">
+                <a href="buscaUsuarios.html">Buscar Usuário</a>
+            </div>
+            <div class="home_cadastro">
+                <a href="cadastroUsuario.html" id="cadastro">Cadastro</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1>Cadastro De Campanha</h1>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required="required" placeholder="Nome">
+            </p>
+            <p>
+                <label for="descricao">Descrição:</label>
+                <input type="text" name="descricao" id="descricao" required="required" placeholder="Descrição">
+            </p>
+            <p>
+                <label for="deadline">Data Limite para arrecadação:</label>
+                <input type="date" name="deadline" id="deadline" required="required" placeholder="Data limite para arrecadação">
+            </p>
+            <p>
+                <label for="meta">Meta:</label>
+                <input type="number" min="0" name="meta" id="meta" required="required" placeholder="Meta (em R$) da campanha">
+            </p>
+            <p>
+                <button>Cadastrar Campanha</button>
+            </p>
+        </div>
+    </div>
+    <script type="module" src="../js/controllers/cadastroCampanha.js"></script>
+</body>
+
+</html>

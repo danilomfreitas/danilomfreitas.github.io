@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="home_nav">
+        <div class="home_wrapper">
+            <div class="home_logo">
+                <a href="../index.html">
+                    <img alt="Ir para página inicial" src="../img/logo.png" width="60px">
+                </a>
+            </div>
+            <div class="home_cadastro_campanhas">
+                <a href="cadastroCampanha.html" id="campanhas">Cadastrar Campanha</a>
+            </div>
+            <div class="home_busca">
+                <a href="buscaCampanhas.html">Buscar Campanha</a>
+            </div>
+            <div class="home_busca_usuario">
+                <a href="buscaUsuarios.html">Buscar Usuário</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1>Login</h1>
+            <p>
+                <label for="email_login">Seu email:</label>
+                <input type="text" name="email_login" id="email_login" required="required" placeholder="Ex: contato@email.com">
+            </p>
+            <p>
+                <label for="senha_login">Sua senha:</label>
+                <input type="password" name="senha_login" id="senha_login" required="required" placeholder="Ex: joao1234">
+            </p>
+            <p>
+                <button>Entrar</button>
+            </p>
+            <p>
+                <a href="cadastroUsuario.html">Cadastre-se aqui!</a>
+            </p>
+        </div>
+    </div>
+    <script type="module" src="../js/controllers/loginUsuario.js"></script>
+</body>
+
+</html>

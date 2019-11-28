@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJuDE - AquiJUntosDoandoEsperança</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="home_nav">
+        <div class="home_wrapper">
+            <div class="home_logo">
+                <a href="index.html">
+                    <img alt="Ir para página inicial" src="./img/logo.png" width="60px">
+                </a>
+            </div>
+            <div class="home_login">
+                <a href="views/loginUsuario.html" id="login">Login</a>
+            </div>
+            <div class="home_cadastro_campanhas">
+                <a href="views/cadastroCampanha.html" id="campanhas">Cadastrar Campanha</a>
+            </div>
+            <div class="home_busca">
+                <a href="views/buscaCampanhas.html">Buscar Campanha</a>
+            </div>
+            <div class="home_busca_usuario">
+                <a href="views/buscaUsuarios.html">Buscar Usuário</a>
+            </div>
+            <div class="home_cadastro">
+                <a href="views/cadastroUsuario.html" id="cadastro">Cadastro</a>
+            </div>
+        </div>
+    </div>
+    <div class="home_header">
+        <div class="wrap">
+            <div class="section_title">
+                <h1 class="title">AJuDE</h1>
+                <div class="subtitle">
+                    Aqui juntos doando esperança!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="criterios_exibicao">
+        <h3>Ordenar Campanhas por:</h3>
+        <p>
+            <input type="radio" name="radio_ordenacao" id="radio_quantia_restante" checked="checked"/>Quantia restante para atingir a meta (crescente)
+        </p>
+        <p>
+            <input type="radio" name="radio_ordenacao" id="radio_deadline"/>Data de vencimento
+        </p>
+        <p>
+            <input type="radio" name="radio_ordenacao" id="radio_likes"/>Número de likes
+        </p>
+    </div>
+    <div class="coluna_campanhas"></div>
+    <script type="module" src="../app/index.js"></script>
+</body>
+
+</html>

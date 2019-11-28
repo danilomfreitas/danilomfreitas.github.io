@@ -1,0 +1,200 @@
+html {
+    background: #4b79a1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4b79a1, #283e51); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4b79a1, #283e51);
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    letter-spacing: 0;
+    color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+.home_nav {
+    padding: 10px 20px;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+.home_nav .home_wrapper {
+    max-width: 90%;
+    margin-left: 50px;
+    margin-right: 20px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.home_logo {
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+.home_login, .home_cadastro_campanhas,.home_campanhas, .home_busca, .home_busca_usuario {
+    margin-right: 25px;
+}
+
+.home_cadastro {
+    background: #33ac48;
+    box-shadow: 0 4px #287f37;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1em;
+    padding: 10px 9px 9px;
+    border-radius: 3px;
+    position: relative;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.home_cadastro:hover {
+    background: #3d8b4b;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+    padding: 2px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+h3 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.nome_usuario { 
+    margin-top: 150px;
+}
+
+#doacao_texto {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.dados_usuario {
+    width: 50%;
+    margin-right: 150px;
+}
+
+.wrapper_campanha {
+    display: flex;
+}
+
+.campanhas_usuario {
+    display: block;
+    background-color: #34536E;
+    width: 33%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 100px;
+    position: static;
+}
+
+.campanhas_usuario p {
+    border-top: 1px solid #fff;
+    height: 10%;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family: arial, sans-serif;
+    color: #069;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    margin: 0px 0px 0px 5px;
+}
+
+.campanhas_doacoes_wrapper {
+    display: flex;
+}
+
+.doacoes_usuario {
+    margin-top: 120px;
+    width: 50%;
+    text-align: center;
+}
+
+.coluna_doacoes {
+    display: block;
+    background-color: #34536E;
+    border: 1px solid #fff;
+    width: 50%;
+    margin: 50px 0px 0px 25%;
+    align-items: center;    
+}
+
+.coluna_doacoes p {
+    border-top: 1px solid #fff;
+    margin: 0;
+    padding-top: 50px;
+    height: 80px;
+    width: 100%;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+}
+
+a {
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 70px;
+    cursor: pointer;
+    background: rgb(61, 157, 179);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 1px 1px #333;
+    font-family: 'Montserrat', sans-serif;
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+ 
+    transition: all 0.2s linear;
+}

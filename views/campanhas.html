@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sua Campanha</title>
+    <link rel="stylesheet" type="text/css" href="../css/campanhas.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="home_nav">
+        <div class="home_wrapper">
+            <div class="home_logo">
+                <a href="../index.html">
+                    <img alt="Ir para página inicial" src="../img/logo.png" width="60px">
+                </a>
+            </div>
+            <div class="home_login">
+                <a href="loginUsuario.html" id="login">Login</a>
+            </div>
+            <div class="home_cadastro_campanhas">
+                <a href="cadastroCampanha.html" id="campanhas">Cadastrar Campanha</a>
+            </div>
+            <div class="home_busca">
+                <a href="buscaCampanhas.html">Buscar</a>
+            </div>
+            <div class="home_cadastro">
+                <a href="cadastroUsuario.html" id="cadastro">Cadastro</a>
+            </div>
+        </div>
+    </div>
+    <div class="filtro">
+        <input type="text" placeholder="Ex: Cadeira de Rodas" id="filtro_input">
+        <button id="filtro_botao">Filtrar</button>
+    </div>
+    <div class="exibicao_campanhas"></div>
+    <script type="module" src="../js/controllers/campanhas.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Campanha</title>
+    <link rel="stylesheet" type="text/css" href="../css/campanha.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="home_nav">
+        <div class="home_wrapper">
+            <div class="home_logo">
+                <a href="../index.html">
+                    <img alt="Ir para página inicial" src="../img/logo.png" width="60px">
+                </a>
+            </div>
+            <div class="home_login">
+                <a href="loginUsuario.html" id="login">Login</a>
+            </div>
+            <div class="home_cadastro_campanhas">
+                <a href="cadastroCampanha.html" id="campanhas">Cadastrar Campanha</a>
+            </div>
+            <div class="home_busca">
+                <a href="buscaCampanhas.html">Buscar Campanha</a>
+            </div>
+            <div class="home_busca_usuario">
+                <a href="buscaUsuarios.html">Buscar Usuário</a>
+            </div>
+            <div class="home_cadastro">
+                <a href="cadastroUsuario.html" id="cadastro">Cadastro</a>
+            </div>
+        </div>
+    </div>
+    <div class="nome_campanha"></div>
+    <div class="wrapper_campanha">
+        <div class="dados_campanha"></div>
+        <div class="doacoes_campanha">
+            <h3 id="doacao_texto">Faça sua doação agora:</h3>
+            <div class="input_doacao">
+                <label for="doacao_input">Quantia: </label>
+                <input min="1" type="number" name="doacao_input" id="doacao_input" placeholder="Ex: 20.0">
+            </div>
+            <button id="botao_doacao">Doar</button>
+        </div>
+    </div>
+    <div class="likes_campanha">
+        <div class="wrapper_like">
+            <p>Likes:</p>
+            <p id="like_counter">0</p>
+            <div class="botao_like">
+                <button id="like_botao">Curtir</button>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper_doacoes_comentarios">
+        <div class="comentarios_campanha">
+            <h3>Comentários:</h3>
+            <div class="caixa_comentarios">
+                <p>
+                    <input type="text" name="comentario_input" id="comentario_input" placeholder="Adicionar um comentário...">
+                </p>
+                <button id="postar_comentario">Comentar</button>
+            </div>
+            <div class="coluna_comentarios">
+            </div>
+        </div>
+        <div class="exibicao_doacoes">
+            <h3>Doações: </h3>
+            <div class="coluna_doacoes">
+            </div>
+        </div>
+    </div>
+    <script type="module" src="../js/controllers/campanha.js"></script>
+</body>
+
+</html>
