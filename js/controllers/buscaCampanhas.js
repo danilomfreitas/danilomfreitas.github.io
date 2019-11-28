@@ -23,7 +23,7 @@ function search() {
                         if (c.length === 0) {
                             alert('Nenhuma campanha para essa pesquisa!');
                         } else {
-                            setInterval(function () { window.location.href = "http://127.0.0.1:5500/app/views/campanhas.html"; }, 300);
+                            setInterval(function () { window.location.href = "https://danilomfreitas.github.io/views/campanhas.html"; }, 300);
                         }
                     })
             }

@@ -22,7 +22,7 @@ function search() {
                         if (u.length === 0) {
                             alert('Nenhum usuário encontrado para essa pesquisa!');
                         } else {
-                            setInterval(function () { window.location.href = "http://127.0.0.1:5500/app/views/usuarios.html"; }, 300);
+                            setInterval(function () { window.location.href = "https://danilomfreitas.github.io/views/usuarios.html"; }, 300);
                         }
                     })
             }

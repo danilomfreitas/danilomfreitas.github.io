@@ -34,7 +34,7 @@ function save() {
                     r.json()
                         .then(c => {
                             localStorage.setItem('campanha', JSON.stringify(c));
-                            setInterval(() => window.location.href = "http://127.0.0.1:5500/app/views/campanha.html", 300);
+                            setInterval(() => window.location.href = "https://danilomfreitas.github.io/views/campanha.html", 300);
                         })
                 }
             })

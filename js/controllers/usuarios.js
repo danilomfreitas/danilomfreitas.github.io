@@ -49,7 +49,7 @@ function acessoDiretoUsuario(email) {
                 r.json()
                     .then(u => {
                         localStorage.setItem('usuario', JSON.stringify(u));
-                        window.location.href = "http://127.0.0.1:5500/app/views/usuario.html"
+                        window.location.href = "https://danilomfreitas.github.io/views/usuario.html"
                     })
             }
         })
